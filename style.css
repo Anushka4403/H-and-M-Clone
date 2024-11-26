@@ -1,0 +1,640 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.heading{
+    height: 30vh;
+    width:100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    height: 15vh;
+    width:100%;
+    background-color: white;
+    display: flex;
+    display: none;
+
+}
+.one{
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.two{
+    width: 50%;
+    /* background-color: #da8a13; */
+    display: flex;
+    align-items: center;
+}
+.four{
+    width: 73%;
+}
+.three{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+}
+i{
+    font-size: 20px;
+}
+.logo1{
+    height: 25px;
+    width: 30px;
+    /* margin-top: -10px; */
+}
+
+.head{
+    height: 100%;
+    width: 33vw;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.head1{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.child1{
+    height: 100%;
+    width: 10vw;
+    background-color: white;
+    
+}
+.child2{
+    height: 10vh;
+    width:10vw ;
+    background-color: white;
+    margin-left: 60px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.child3{
+    height: 15vh;
+    width:33vw ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.kid{
+    height: 9vh;
+    width: 5vw;
+    background-color: white;
+    
+}
+.child4{
+    height: 15vh;
+    width:33vw ;
+    background-color: white;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    align-items: end;
+    
+    
+}
+.like{
+    height: 10vh;
+    width: 10vw;
+    background-color: white;
+}
+.like i{
+font-size: 19px;
+}
+
+.child5{
+    height: 15vh;
+    width:33vw ;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.abc1{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+p a{
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 10px;
+    text-align: center;
+   
+}
+.sea{
+    height: 7vh;
+    width: 19vw;
+    background-color: white;
+    outline: none;
+    border: none;
+    margin-left:5px;
+}
+.search{
+    width: 9vw;
+    height: 4vh;
+    box-shadow: none;
+    margin-left: 5%;
+    outline: none;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    border-style: none;
+    
+}
+.sea i{
+margin-left: 15%;
+margin-bottom: 3%;
+
+}
+
+.heading2{
+    height: 8vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.headkid1{
+    height: 5vh;
+    width: 20vw;
+    background-color:white;
+
+}
+.headkid1 p{
+    font-size: 0.90rem;
+}
+.main{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    height: 80vh;
+    width: 60vw;
+    background-color: #da8a13;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+.main2{
+    height: 100%;
+    width: 100%;
+    background-color: darkgrey;
+  
+    
+}
+.main3{
+    height: 60vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+}
+.foot{
+    height: 50vh;
+    width: 20vw;
+    background-color: white;
+
+}
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot1{
+    height: 8vh;
+    width: 5vw;
+    background-color:white ;
+}
+.line{
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+}
+.line1{
+    height: 18vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineA{
+    height:13vh ;
+    width: 8vw;
+    background-color: black;
+}
+.line3{
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineB{
+    height:9vh ;
+    width: 10vw;
+    background-color: white;
+}
+
+
+.texx{
+    position: absolute;
+    top: 70%;
+    font-size: 3rem;
+    color: white;
+    margin-right: 5%;
+}
+.btn{
+    position: absolute;
+    top: 85%;
+    font-size: 14px;
+    height: 7vh;
+    width: 8.5vw;
+
+    
+}
+.texx1{
+    position: absolute;
+    top: 58%;
+    margin-left: -20%;
+    font-size: 4rem;
+    color: white;
+    margin-right: 5%;
+}
+.btn1{
+    position: absolute;
+    top: 78%;
+    margin-left: -70%;
+    font-size: 15px;
+    height: 7vh;
+    width: 8.5vw;
+
+    
+}
+.manh{
+    position: absolute;
+    top: 71%;
+    margin-left:-40% ;
+    color: white;
+    font-size: 1.1rem;
+}
+.main1box{
+    position:absolute;
+    height: 80vh;
+    width: 60vw;
+    background-color: antiquewhite;
+
+
+}
+.main2box{
+    position:absolute;
+    height: 80vh;
+    width: 60vw;
+    background-color:white;
+
+
+}
+.box1{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.box2{
+    height: 40vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+}
+.boxA{
+    width: 20vw;
+    height: 100%;
+    background-color: white;
+}
+.boxB{
+    width: 20vw;
+    height: 30vh;
+    background-color: white;
+}
+.shop{
+    height: 6vh;
+    width: 8vw;
+    font-size: 13px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+dl dt{
+    font-size:1.1rem;
+    /* line-height: 15px; */
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.foot h6{
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.foot p{
+    margin-top: 13%;
+    font-size: 1.1rem;
+}
+.foot a{
+    font-size: 1rem;
+    margin-left: 30%;
+    text-decoration: underline;
+    color: black;
+}
+.lineB h5{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.boxB h6{
+    text-decoration: line-through;
+    font-size: 17px;
+    color: red;
+}
+.clo{
+    font-size: 20px;
+}
+.pri{
+    font-size: 18px;
+}
+
+
+.texx2{
+    position: absolute;
+    top: 65%;
+    font-size: 3rem;
+    color: white;
+    margin-right: 5%;
+    margin-left: 28%;
+}
+.btn2{
+    position: absolute;
+    top: 85%;
+    font-size: 15px;
+    height: 7vh;
+    width: 8.5vw;
+    margin-left: -55%;
+
+    
+}
+.th6{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: -15%;
+    font-size: 1rem;
+    color: white;
+}
+.boo{
+    position: absolute;
+    font-size: 3.5rem;
+    margin-top: 10%;
+    color: white;
+}
+.but3{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 2%;
+    font-size: 15px;
+    height: 7vh;
+    width: 8.5vw;
+    
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.like p i {
+font-size: 16px;
+    
+}
+.but3:hover{
+    background-color: black;
+    color: white;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+.shop:hover{
+    background-color: white;
+    color: black;
+}
+
+.end1{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logocontain{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width :760px) {
+    .heading{
+        display: none;
+    }
+    .navbar{
+        display: block;
+    }
+    .navbar{
+        height: 15vh;
+        width:100%;
+        background-color: white;
+        display: flex;
+        
+    
+    }
+    .one{
+        width: 40%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }
+    
+    .two{
+        width: 50%;
+        /* background-color: #da8a13; */
+        display: flex;
+        align-items: center;
+    }
+    .four{
+        width: 73%;
+    }
+    .three{
+        display: flex;
+        /* justify-content: space-evenly; */
+        gap: 20px;
+    }
+    i{
+        font-size: 20px;
+    }
+    .logo1{
+        height: 25px;
+        width: 30px;
+        /* margin-top: -10px; */
+    }
+    .main1{
+        height: 80vh;
+        width: 90%;
+        background-color: #da8a13;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main2box{
+        position:absolute;
+        height: 80vh;
+        width: 90%;
+        background-color:white;
+    
+    
+    }
+    .end1{
+        display: none;
+    }
+    .foot3 p{
+        margin-top: 13%;
+        font-size: 0.85rem;
+        }
+    .foot3 a{
+        font-size: 0.85rem;
+        margin-left: 45%;
+        text-decoration: underline;
+        color: black;
+
+    }
+    .footer2{
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    
+    
+    }
+    .texx{
+        font-size: 2rem;
+    }
+    .btn{
+        display: none;
+    }
+    .clo{
+        font-size: 0.9rem;
+    }
+    .boxB h6{
+        font-size: 0.9rem;  
+    }
+    .shop{
+        font-size: .5rem;
+        height:28px;
+        width: 50px;
+    }
+    .pri{
+        font-size: 0.9rem;  
+    }
+    .texx1{
+        font-size: 2rem;
+    }
+    .mahn{
+        font-size: 0.5rem;
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+    .texx2{
+        font-size: 3rem; 
+        margin-top: -30%;
+    }
+    .th6{
+        font-size: 0.5rem; 
+        margin-top: -35%;
+        display: none;
+    }
+    .btn2{
+        display: none;
+    }
+    .foot p{
+        font-size: 0.5rem;
+    }
+    .line h6{
+        font-size: 0.8rem;
+    }
+    .lineB h5{
+          font-size: 1rem;
+    }
+    .but3{
+        display: none;
+    }
+    .boo{
+        font-size: 3rem;
+    }
+    
+    }
+
+    
+
+    
